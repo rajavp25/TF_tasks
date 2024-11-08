@@ -1,3 +1,5 @@
+# linux vm creation without using variables
+
 resource "azurerm_resource_group" "rg" {
   location = "westus2"
   name     = "tf_rg"
